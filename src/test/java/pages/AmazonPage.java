@@ -8,7 +8,6 @@ import utilities.Driver;
 public class AmazonPage {
     public AmazonPage(){ //Constructor oluşturup public yapmamız gerekir
         PageFactory.initElements(Driver.getDriver(),this);
-
     }
 
     @FindBy (id="twotabsearchtextbox")

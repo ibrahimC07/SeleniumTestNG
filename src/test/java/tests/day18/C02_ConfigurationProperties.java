@@ -9,8 +9,8 @@ public class C02_ConfigurationProperties {
     @Test
     public void test01() {
         //Amazon sayfasına ve facebook sayfasına gidiniz
-        String urlamzn = ConfigReader.getProperty("amazonUrl");
-        String urlFace = ConfigReader.getProperty("facebookUrl");
+        String urlamzn = ConfigReader.getProperty("amznUrl");
+        String urlFace = ConfigReader.getProperty("faceUrl");
         Driver.getDriver().get(urlamzn);
         Driver.getDriver().get(urlFace);
         Driver.closeDriver();
