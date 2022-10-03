@@ -9,6 +9,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class C02_NegatifTest {
+
     @Test
     public void negatifTest() {
         //Bir Class olustur : NegativeTest
