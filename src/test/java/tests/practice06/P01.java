@@ -16,6 +16,7 @@ public class P01 {
         // Go to URL : http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html
         Driver.getDriver().get("http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
 
+
         DhtmlgoodiesPage dhtmlgoodiesPage = new DhtmlgoodiesPage();
         Actions actions = new Actions(Driver.getDriver());
 //        actions.dragAndDrop(dhtmlgoodiesPage.oslo,dhtmlgoodiesPage.norway).perform();
