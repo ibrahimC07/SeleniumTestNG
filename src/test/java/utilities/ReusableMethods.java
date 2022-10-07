@@ -225,6 +225,9 @@ public class ReusableMethods {
             assertFalse("Element should not be visible: " + element, element.isDisplayed());
         } catch (NoSuchElementException e) {
             e.printStackTrace();
+
+
+            }
         }
     }
-}
+
